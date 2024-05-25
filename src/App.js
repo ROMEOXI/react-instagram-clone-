@@ -22,6 +22,7 @@ function App() {
         dispatch(setLoading(false));
       } else {
         console.log("User is not logged in");
+        dispatch(setLoading(false));
       }
     });
   }, []);
